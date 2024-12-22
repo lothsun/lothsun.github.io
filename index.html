@@ -13,20 +13,22 @@
   <section class="hero is-fullheight has-background-gradient">
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title is-size-1 has-text-warning has-text-shadow">Hey Babe ❤️</h1>
-        <p class="subtitle is-size-4 has-text-white">I have a question for you...</p>
+        <h1 id="title" class="title is-size-1 has-text-warning has-text-shadow">Hey Babe ❤️</h1>
+        <p id="subtitle" class="subtitle is-size-4 has-text-white">I have a question for you...</p>
         <button id="revealButton" class="button is-warning is-large has-text-black">Click to Find Out</button>
         <div id="message" class="hidden">
-          <h2 class="title is-size-2 mt-5 has-text-white reveal-animation">Are you ready? You're Going to See Post Malone!</h2>
-          <p class="subtitle is-size-4 has-text-light">in Busch Stadium on May 13th! 🎤✨</p>
+          <h2 id="revealTitle" class="title is-size-2 mt-5 has-text-white">Are you ready? You're Going to See Post Malone!</h2>
+          <p id="revealSubtitle" class="subtitle is-size-4 has-text-light">in Busch Stadium on May 13th! 🎤✨</p>
           <figure class="image is-centered mt-4 promo-frame">
-            <img src="images/post-malone-promo.jpg" alt="Post Malone Big Ass Stadium Tour">
+            <img id="promoImage" src="images/post-malone-promo.jpg" alt="Post Malone Big Ass Stadium Tour">
           </figure>
-          <p class="subtitle is-size-4 mt-4 has-text-warning">Get ready to sing your heart out!</p>
+          <p id="revealText" class="subtitle is-size-4 mt-4 has-text-warning">Get ready to sing your heart out!</p>
         </div>
       </div>
     </div>
   </section>
+  <!-- Include GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
